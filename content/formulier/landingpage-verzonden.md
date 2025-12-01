@@ -3,8 +3,6 @@ title: Aanvraag verzonden
 url: "/lp/verzonden/"
 hideinsearch: true
 hideingoogle: true
-hideinsearch: true
-hideingoogle: true
 
 ---
 Je aanvraag voor informatie over onze dienst is ontvangen. Nog even wachten en dan nemen zo snel mogelijk contact met je op.

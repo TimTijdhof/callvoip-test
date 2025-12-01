@@ -1,7 +1,6 @@
 ---
 title: "CRM Marketplace"
 description: Callvoip Marketplace, alle CRM integratie pakketten op één plek! Koppel zakelijke telefonie met uw CRM systeem via de slimme tools en applicaties van Callvoip.
-date: 2021-07-19T10:35:57+05
 url: /marketplace/
 intro:
   title: Integreer je favoriete tools

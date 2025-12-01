@@ -9,7 +9,6 @@ description: Ben je op zoek naar de beste zakelijke telefonie? Wil je een offert
   op maat? Vraag dan een offerte aan bij Callvoip en ontvang deze binnen 1 dag.
 images:
 - "/v1567165784/icon_hwk0eh.png"
-layout: ''
 hideinsearch: false
 hideingoogle: false
 hidesocialshare: true

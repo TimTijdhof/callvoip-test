@@ -58,3 +58,5 @@ _De toeslag is € 50,00 excl. BTW._
 {{</ form/fieldset >}}
 
 {{< form/button "Verstuur formulier"  >}}
+
+{{</ form >}}

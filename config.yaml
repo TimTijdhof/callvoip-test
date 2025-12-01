@@ -43,8 +43,9 @@ outputs:
     - HTML
     - JSON
 markup:
-  defaultMarkdownHandler: blackfriday
-  blackfriday:
-    footnoteReturnLinkContents: ↩
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true    # allows raw HTML in markdown, similar to Blackfriday
   highlight:
     noClasses: false

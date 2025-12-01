@@ -4,7 +4,7 @@
       {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
       <li>
-        <a href="{{ .Page.Permalink }}" class="no-underline flex w-full pt-3 pb-1 no-underline items-center font-medium text-lg flex justify-between has-dropdown">
+        <a href="{{ if .Page }}{{ .Page.Permalink }}{{ else }}{{ .URL }}{{ end }}" class="no-underline flex w-full pt-3 pb-1 no-underline items-center font-medium text-lg flex justify-between has-dropdown">
           <span>
             {{ .Name }}
           </span>

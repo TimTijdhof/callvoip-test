@@ -58,8 +58,11 @@ _Wij hebben een kopie van uw telefoonnota nodig om de telefoonnummers te portere
 {{< form/input "Opmerkingen" >}}
 
 {{< form/checkbox "Ik ga akkoord met de algemene voorwaarden*" "agree to terms" true >}}
-<br>
+{{</ form/fieldset >}}<br>
 {{< form/button "Verstuur formulier" >}}
+
+{{</ form >}}
+
 <br><a href="https://www.callvoip.nl/voorwaarden/" target="_blank">*Algemene voorwaarden</a>
 <br><br>
 
@@ -129,10 +132,6 @@ Licentie
 
 {{</ layout/columns >}}
 
-{{< layout/columns >}}
-
 <br>
 
-<b>Let op:</b>Neem voor de aanvraag contact op met de huidige provider om navraag te doen over eventuele contractuele verplichtingen. Zodra wij een nummer toevoegen kunt u ermee uitbellen; de facturatie van het nummer start ook vanaf dat moment. 
-
-{{</ form >}}
+<b>Let op:</b>Neem voor de aanvraag contact op met de huidige provider om navraag te doen over eventuele contractuele verplichtingen. Zodra wij een nummer toevoegen kunt u ermee uitbellen; de facturatie van het nummer start ook vanaf dat moment.

@@ -21,12 +21,6 @@ blocks:
   position: image_left
   title: 'Vamos SIM'
   image_position: center
-prijzen:
-- title: Vamos
-  content: 'Vamos vanaf 29,00 excl. BTW per maand voor Onbeperkt bellen EU + 0GB data'
-  button:
-    title: Bereken je kosten
-    link: "/calculator/"
 intro:
   title: Wat zijn de kosten?
   content: 'De Vast Mobiel integratie (Vamos) van Callvoip komt in vier verschillende

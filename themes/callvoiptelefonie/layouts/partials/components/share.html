@@ -1,5 +1,5 @@
 {{ $title := .Title }}
-{{ $url := printf "%s" .URL | absLangURL }}
+{{ $url := .Permalink }}
 {{ $body := print $title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
 {{ if .Params.hidesocialshare}}
 
@@ -9,7 +9,7 @@
     <i class="fab fa-facebook-f mr-2"></i> facebook
   </a>
 
-  <a href="https://twitter.com/share?url={{ $url }}&text={{ $title }}&via={{with .Site.Social.twitter }}{{ . }}{{ end }}"
+  <a href="https://twitter.com/share?url={{ $url }}&text={{ $title }}&via={{with .Site.Params.Social.twitter }}{{ . }}{{ end }}"
   class="border-2 border-grey-lightest mb-4 hover:bg-grey-lightest flex items-center px-8 py-3 text-grey-dark rounded mr-4  w-full justify-center text-center md:w-auto" aria-label="share on Twitter" target="_blank">
   <i class="fab fa-twitter mr-2"></i> twitter
   </a>

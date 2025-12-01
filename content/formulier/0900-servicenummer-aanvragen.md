@@ -65,7 +65,7 @@ Mag niet ouder zijn dan 6 maanden
 
 {{< form/button "Verstuur formulier" >}}
 
-<br><br>
+{{</ form >}}<br><br>
 
 {{< layout/columns >}}
 

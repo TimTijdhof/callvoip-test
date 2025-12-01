@@ -24,7 +24,7 @@
 {{- partial "seo/twitterCards" . -}}
 
 
-{{ if .Site.IsServer }}
+{{ if hugo.IsServer }}
 {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./themes/callvoiptelefonie/assets/css/dev/postcss.config.js") | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" data>
 {{ else }}
